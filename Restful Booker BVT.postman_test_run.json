@@ -1,0 +1,1232 @@
+{
+	"id": "dce19fd9-34fa-4ad0-ae38-3fa21de2d102",
+	"name": "Restful Booker BVT",
+	"timestamp": "2021-04-07T14:13:56.195Z",
+	"collection_id": "95f89ec7-d61d-4028-bc43-d48603546e37",
+	"folder_id": 0,
+	"environment_id": "40d45d53-935e-4e79-a166-647e2aa28145",
+	"totalPass": 235,
+	"totalFail": 30,
+	"results": [
+		{
+			"id": "3c6430cc-9e74-40a3-bb1e-d7afa9be30a7",
+			"name": "Get All Bookings",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Responses are booking ids": true,
+				"Response is not empty": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Responses are booking ids": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is not empty": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				116,
+				112,
+				110,
+				99,
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true
+				}
+			]
+		},
+		{
+			"id": "66c82c0e-316a-4d15-8dd5-1c4ef0ccb744",
+			"name": "Search By First Name",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Responses are booking ids": true,
+				"Response is not empty": true,
+				"Expected booking id is in the returned array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Responses are booking ids": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is not empty": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Expected booking id is in the returned array": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				113,
+				124,
+				117,
+				98,
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				}
+			]
+		},
+		{
+			"id": "689d1028-dc11-4bd5-8e28-f9a4e20c926a",
+			"name": "Search By Last Name",
+			"time": 113,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Responses are booking ids": true,
+				"Response is not empty": true,
+				"Expected booking id is in the returned array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Responses are booking ids": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is not empty": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Expected booking id is in the returned array": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				109,
+				127,
+				104,
+				90,
+				113
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				}
+			]
+		},
+		{
+			"id": "553153a9-7c7d-43c3-b30a-a590af06a3bf",
+			"name": "Search By First and Last Name",
+			"time": 107,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Responses are booking ids": true,
+				"Response is not empty": true,
+				"Expected booking id is in the returned array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Responses are booking ids": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is not empty": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Expected booking id is in the returned array": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				104,
+				94,
+				92,
+				107,
+				107
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				}
+			]
+		},
+		{
+			"id": "b647e6db-18ea-4343-a2f5-191901898a68",
+			"name": "Search By Checkin",
+			"time": 115,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Responses are booking ids": true,
+				"Response is not empty": true,
+				"Expected booking id is in the returned array": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Responses are booking ids": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is not empty": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Expected booking id is in the returned array": {
+					"pass": 0,
+					"fail": 5
+				}
+			},
+			"times": [
+				114,
+				115,
+				107,
+				104,
+				115
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": false
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": false
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": false
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": false
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": false
+				}
+			]
+		},
+		{
+			"id": "42166b11-c211-4c38-9300-bf7f2a8eee14",
+			"name": "Search By Checkout",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Responses are booking ids": true,
+				"Response is not empty": true,
+				"Expected booking id is in the returned array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Responses are booking ids": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is not empty": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Expected booking id is in the returned array": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				99,
+				114,
+				97,
+				103,
+				125
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				},
+				{
+					"Status code is 200": true,
+					"Responses are booking ids": true,
+					"Response is not empty": true,
+					"Expected booking id is in the returned array": true
+				}
+			]
+		},
+		{
+			"id": "667773e6-32c5-4ea7-b6a7-980a7d1ee828",
+			"name": "Empty Search",
+			"time": 111,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response is empty": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response is empty": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				101,
+				114,
+				105,
+				106,
+				111
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response is empty": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is empty": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is empty": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is empty": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is empty": true
+				}
+			]
+		},
+		{
+			"id": "8960cb11-c7e7-447c-a959-0190de1dfb3c",
+			"name": "Existing ID",
+			"time": 121,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Expected booking is returned": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Expected booking is returned": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				117,
+				96,
+				121,
+				101,
+				121
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Expected booking is returned": true
+				},
+				{
+					"Status code is 200": true,
+					"Expected booking is returned": true
+				},
+				{
+					"Status code is 200": true,
+					"Expected booking is returned": true
+				},
+				{
+					"Status code is 200": true,
+					"Expected booking is returned": true
+				},
+				{
+					"Status code is 200": true,
+					"Expected booking is returned": true
+				}
+			]
+		},
+		{
+			"id": "f435cd84-ec70-4fa2-9ff2-b00a65c8207a",
+			"name": "Non-Existent ID",
+			"time": 105,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				107,
+				124,
+				109,
+				134,
+				105
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "94c3d5cd-6ffa-4785-ace5-79e5d8fc8128",
+			"name": "Valid Create",
+			"time": 190,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Slkasjdalksjdlkjasd": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Slkasjdalksjdlkjasd": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				808,
+				173,
+				211,
+				187,
+				190
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Slkasjdalksjdlkjasd": true
+				},
+				{
+					"Status code is 200": true,
+					"Slkasjdalksjdlkjasd": true
+				},
+				{
+					"Status code is 200": true,
+					"Slkasjdalksjdlkjasd": true
+				},
+				{
+					"Status code is 200": true,
+					"Slkasjdalksjdlkjasd": true
+				},
+				{
+					"Status code is 200": true,
+					"Slkasjdalksjdlkjasd": true
+				}
+			]
+		},
+		{
+			"id": "e4a1ecf9-97be-44d3-89d6-7b3e50fa5edb",
+			"name": "First name is null",
+			"time": 102,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Create fails": true
+			},
+			"testPassFailCounts": {
+				"Create fails": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				127,
+				91,
+				93,
+				112,
+				102
+			],
+			"allTests": [
+				{
+					"Create fails": true
+				},
+				{
+					"Create fails": true
+				},
+				{
+					"Create fails": true
+				},
+				{
+					"Create fails": true
+				},
+				{
+					"Create fails": true
+				}
+			]
+		},
+		{
+			"id": "bfdc1e42-5001-4e0a-ae91-8ff099437473",
+			"name": "Valid Update",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response firstname is correct": true,
+				"Response lastname is correct": true,
+				"Response totalprice is correct": true,
+				"Response depositpaid is correct": true,
+				"Response checkin is correct": true,
+				"Response checkout is correct": true,
+				"Response additionalneeds is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response firstname is correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response lastname is correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response totalprice is correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response depositpaid is correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response checkin is correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response checkout is correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response additionalneeds is correct": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				144,
+				97,
+				104,
+				106,
+				109
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response firstname is correct": true,
+					"Response lastname is correct": true,
+					"Response totalprice is correct": true,
+					"Response depositpaid is correct": true,
+					"Response checkin is correct": true,
+					"Response checkout is correct": true,
+					"Response additionalneeds is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response firstname is correct": true,
+					"Response lastname is correct": true,
+					"Response totalprice is correct": true,
+					"Response depositpaid is correct": true,
+					"Response checkin is correct": true,
+					"Response checkout is correct": true,
+					"Response additionalneeds is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response firstname is correct": true,
+					"Response lastname is correct": true,
+					"Response totalprice is correct": true,
+					"Response depositpaid is correct": true,
+					"Response checkin is correct": true,
+					"Response checkout is correct": true,
+					"Response additionalneeds is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response firstname is correct": true,
+					"Response lastname is correct": true,
+					"Response totalprice is correct": true,
+					"Response depositpaid is correct": true,
+					"Response checkin is correct": true,
+					"Response checkout is correct": true,
+					"Response additionalneeds is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response firstname is correct": true,
+					"Response lastname is correct": true,
+					"Response totalprice is correct": true,
+					"Response depositpaid is correct": true,
+					"Response checkin is correct": true,
+					"Response checkout is correct": true,
+					"Response additionalneeds is correct": true
+				}
+			]
+		},
+		{
+			"id": "e88fa4b8-5555-4de1-bb63-65cf7cf0319d",
+			"name": "Update Invalid Name",
+			"time": 93,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Update fails": true,
+				"Booking is unchanged": true
+			},
+			"testPassFailCounts": {
+				"Update fails": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Booking is unchanged": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				105,
+				113,
+				93,
+				111,
+				93
+			],
+			"allTests": [
+				{
+					"Update fails": true,
+					"Booking is unchanged": true
+				},
+				{
+					"Update fails": true,
+					"Booking is unchanged": true
+				},
+				{
+					"Update fails": true,
+					"Booking is unchanged": true
+				},
+				{
+					"Update fails": true,
+					"Booking is unchanged": true
+				},
+				{
+					"Update fails": true,
+					"Booking is unchanged": true
+				}
+			]
+		},
+		{
+			"id": "33829626-6633-431c-a5b1-67b8484bec19",
+			"name": "Update Invalid Date",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Update fails": false,
+				"Booking is unchanged": false
+			},
+			"testPassFailCounts": {
+				"Update fails": {
+					"pass": 0,
+					"fail": 5
+				},
+				"Booking is unchanged": {
+					"pass": 0,
+					"fail": 5
+				}
+			},
+			"times": [
+				105,
+				93,
+				140,
+				114,
+				124
+			],
+			"allTests": [
+				{
+					"Update fails": false,
+					"Booking is unchanged": false
+				},
+				{
+					"Update fails": false,
+					"Booking is unchanged": false
+				},
+				{
+					"Update fails": false,
+					"Booking is unchanged": false
+				},
+				{
+					"Update fails": false,
+					"Booking is unchanged": false
+				},
+				{
+					"Update fails": false,
+					"Booking is unchanged": false
+				}
+			]
+		},
+		{
+			"id": "4cc9ceeb-1225-4f0a-9a3e-fba60ec840a1",
+			"name": "Partial Update Booking",
+			"time": 114,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response firstname is correct": true,
+				"Response lastname is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response firstname is correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response lastname is correct": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				112,
+				114,
+				95,
+				97,
+				114
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response firstname is correct": true,
+					"Response lastname is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response firstname is correct": true,
+					"Response lastname is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response firstname is correct": true,
+					"Response lastname is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response firstname is correct": true,
+					"Response lastname is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response firstname is correct": true,
+					"Response lastname is correct": true
+				}
+			]
+		},
+		{
+			"id": "a501a4a1-f7b4-4d36-9b43-1f5e3756b176",
+			"name": "Invalid Patch",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Patch fails": false,
+				"Booking is unchanged": false
+			},
+			"testPassFailCounts": {
+				"Patch fails": {
+					"pass": 0,
+					"fail": 5
+				},
+				"Booking is unchanged": {
+					"pass": 0,
+					"fail": 5
+				}
+			},
+			"times": [
+				104,
+				97,
+				103,
+				103,
+				145
+			],
+			"allTests": [
+				{
+					"Patch fails": false,
+					"Booking is unchanged": false
+				},
+				{
+					"Patch fails": false,
+					"Booking is unchanged": false
+				},
+				{
+					"Patch fails": false,
+					"Booking is unchanged": false
+				},
+				{
+					"Patch fails": false,
+					"Booking is unchanged": false
+				},
+				{
+					"Patch fails": false,
+					"Booking is unchanged": false
+				}
+			]
+		},
+		{
+			"id": "e4d6dc2d-294e-44f1-bd5a-d5ae8f321982",
+			"name": "Ping",
+			"time": 106,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Ping is successful": true
+			},
+			"testPassFailCounts": {
+				"Ping is successful": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				119,
+				89,
+				95,
+				101,
+				106
+			],
+			"allTests": [
+				{
+					"Ping is successful": true
+				},
+				{
+					"Ping is successful": true
+				},
+				{
+					"Ping is successful": true
+				},
+				{
+					"Ping is successful": true
+				},
+				{
+					"Ping is successful": true
+				}
+			]
+		},
+		{
+			"id": "211fdf93-7653-43a2-abfa-331933363b41",
+			"name": "Auth",
+			"time": 95,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains token": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response contains token": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				89,
+				89,
+				98,
+				99,
+				95
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains token": true
+				},
+				{
+					"Status code is 200": true,
+					"Response contains token": true
+				},
+				{
+					"Status code is 200": true,
+					"Response contains token": true
+				},
+				{
+					"Status code is 200": true,
+					"Response contains token": true
+				},
+				{
+					"Status code is 200": true,
+					"Response contains token": true
+				}
+			]
+		},
+		{
+			"id": "95d11f28-1fe1-40f1-8e4e-799ca50be52d",
+			"name": "Delete Booking",
+			"time": 111,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Booking no longer exists": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 5
+				},
+				"Booking no longer exists": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				107,
+				96,
+				105,
+				108,
+				111
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Booking no longer exists": true
+				},
+				{
+					"Status code is 200": false,
+					"Booking no longer exists": true
+				},
+				{
+					"Status code is 200": false,
+					"Booking no longer exists": true
+				},
+				{
+					"Status code is 200": false,
+					"Booking no longer exists": true
+				},
+				{
+					"Status code is 200": false,
+					"Booking no longer exists": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 11285,
+	"collection": {
+		"requests": [
+			{
+				"id": "3c6430cc-9e74-40a3-bb1e-d7afa9be30a7",
+				"method": "GET"
+			},
+			{
+				"id": "66c82c0e-316a-4d15-8dd5-1c4ef0ccb744",
+				"method": "GET"
+			},
+			{
+				"id": "689d1028-dc11-4bd5-8e28-f9a4e20c926a",
+				"method": "GET"
+			},
+			{
+				"id": "553153a9-7c7d-43c3-b30a-a590af06a3bf",
+				"method": "GET"
+			},
+			{
+				"id": "b647e6db-18ea-4343-a2f5-191901898a68",
+				"method": "GET"
+			},
+			{
+				"id": "42166b11-c211-4c38-9300-bf7f2a8eee14",
+				"method": "GET"
+			},
+			{
+				"id": "667773e6-32c5-4ea7-b6a7-980a7d1ee828",
+				"method": "GET"
+			},
+			{
+				"id": "8960cb11-c7e7-447c-a959-0190de1dfb3c",
+				"method": "GET"
+			},
+			{
+				"id": "f435cd84-ec70-4fa2-9ff2-b00a65c8207a",
+				"method": "GET"
+			},
+			{
+				"id": "94c3d5cd-6ffa-4785-ace5-79e5d8fc8128",
+				"method": "POST"
+			},
+			{
+				"id": "e4a1ecf9-97be-44d3-89d6-7b3e50fa5edb",
+				"method": "POST"
+			},
+			{
+				"id": "bfdc1e42-5001-4e0a-ae91-8ff099437473",
+				"method": "PUT"
+			},
+			{
+				"id": "e88fa4b8-5555-4de1-bb63-65cf7cf0319d",
+				"method": "PUT"
+			},
+			{
+				"id": "33829626-6633-431c-a5b1-67b8484bec19",
+				"method": "PUT"
+			},
+			{
+				"id": "4cc9ceeb-1225-4f0a-9a3e-fba60ec840a1",
+				"method": "PATCH"
+			},
+			{
+				"id": "a501a4a1-f7b4-4d36-9b43-1f5e3756b176",
+				"method": "PATCH"
+			},
+			{
+				"id": "e4d6dc2d-294e-44f1-bd5a-d5ae8f321982",
+				"method": "GET"
+			},
+			{
+				"id": "211fdf93-7653-43a2-abfa-331933363b41",
+				"method": "POST"
+			},
+			{
+				"id": "95d11f28-1fe1-40f1-8e4e-799ca50be52d",
+				"method": "DELETE"
+			}
+		]
+	}
+}
